@@ -35,9 +35,22 @@
           </div>
         </div>
       </nav>
+      <main>
+        <input type="text" name="" id="toName" placeholder="Enter to Name">
+        <input type="text" name="" id="fromName" placeholder="Enter from Name">
+        <input type="text" name="" id="message" placeholder="Enter your message">
+        <button onclick="sendMail()">Submit</button>
 
+      </main>
+     
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 <script src="assets/js/script.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_V7BX4cqmqVo2RgrJSRaoi");
+})();
+</script>
 </body>
 </html>
